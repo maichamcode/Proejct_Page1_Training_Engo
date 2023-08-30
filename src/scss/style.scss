@@ -1,0 +1,24 @@
+//Abstracts
+@import './abstracts/variable.scss';
+
+//base
+@import './base/normalize.scss';
+@import './base/reset.scss';
+
+
+
+//layout
+@import './layout/grid.scss';
+
+
+//components
+@import './components/button.scss';
+@import './components/header.scss';
+@import './components/about.scss';
+@import './components/banner.scss';
+@import './components/essential.scss';
+@import './components/footer.scss';
+@import './utils/utils.scss';
+
+
+

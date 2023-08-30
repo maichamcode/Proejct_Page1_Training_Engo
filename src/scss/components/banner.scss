@@ -1,0 +1,127 @@
+
+// .banner__title1 h4{
+// text-align: center;
+
+//     color: #2D2A3E;
+// font-size: 38px;
+// font-style: normal;
+// line-height: 24px; /* 63.158% */
+// letter-spacing: 1.52px;
+// }
+// .banner__title1 span{
+
+
+//    color: $colorSpan ;
+// }
+// .banner__title1 p{
+//     color: #7E7FA0;
+// text-align: center;
+// text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+// font-size: 20px;
+// font-style: normal;
+// font-weight: 500;
+// line-height: 29px; /* 145% */
+// letter-spacing: 1.5px;
+// }
+// .banner__wrapper{
+//     display: flex;
+//     justify-content: space-between;
+// }
+// .banner__content{
+//     padding-top: 170px;
+// }
+// .banner__img1{
+//     width: 790px;
+// height: 815px;
+// flex-shrink: 0;
+// }
+// .banner__img{
+//     width: 823px;
+// height: 579px;
+// flex-shrink: 0;
+// }
+// .banner__wrapper-img{
+//     position: relative;
+//     z-index: -1;
+//     padding: 80px 0;
+// }
+// .banner__img1{
+//     position: absolute;
+//     top: 0;
+//     z-index: -1;
+//     width: 50%;
+//     height: 100%;
+//     background-size: cover;
+//     background-position: 50% 50%;
+// }
+// .banner-section{
+//     padding-bottom: 100px;
+// }
+
+
+
+//chia theo grid
+
+
+
+.banner__main{
+   margin-top: 100px;
+    position: relative;
+}
+.banner__bg{
+    // position: absolute;
+    top: 0;
+    z-index: -1;
+    width: 41%;
+    height: 100%;
+    background-size: 100%;
+    background-position: 50% 50%;
+}
+.banner__bg--left{
+    position: absolute;
+    left: 0;
+    border-radius: 0 30px 30px 0;
+}
+.banner__img2{
+    width: 50%;
+    padding-top: 2%;
+    padding-left: 2%;
+}
+
+.banner__title1 h4{
+text-align: center;
+
+    color: #2D2A3E;
+font-size: 38px;
+font-style: normal;
+line-height: 24px; /* 63.158% */
+letter-spacing: 1.52px;
+}
+.banner__title1 span{
+    cursor: pointer;
+
+
+   color: $colorSpan ;
+}
+.banner__title1 p{
+    color: #7E7FA0;
+text-align: center;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 29px; /* 145% */
+letter-spacing: 1.5px;
+}
+
+.banner__content{
+    padding-top: 120px;
+}
+
+.header__button1{
+    text-shadow: 1px 1px 0 black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
+    margin-right: 12px;
+}
+.header__button2{
+    margin-left: 12px;
+}
