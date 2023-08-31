@@ -7,13 +7,13 @@
     line-height: 24px; /* 63.158% */
     letter-spacing: 1.52px;
     }
-    .essential__title-header span{
+.essential__title-header span{
     
 cursor: pointer;
     
        color: $colorSpan ;
     }
-    .essential__title-header p{
+.essential__title-header p{
         color: #7E7FA0;
     text-align: center;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -23,18 +23,17 @@ cursor: pointer;
     line-height: 29px; /* 145% */
     letter-spacing: 1.5px;
     }
-    .essential-section{
-        
-height: 1073px;
-flex-shrink: 0;
-        background-color: $colorEssential;
-        border-radius: 48px;
+.essential{    
+    height: 1073px;
+    flex-shrink: 0;
+    background-color: $colorEssential;
+    border-radius: 48px;
     }
-    .essential__title-header{
+.essential__title-header{
         padding-top: 100px;
         padding-bottom: 20px;
     }
-    .essential__wrapper-col{
+.essential__wrapper-col{
         border-radius: 16px;
 background: #FFF;
 padding-left: 25px;
