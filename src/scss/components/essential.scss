@@ -1,6 +1,6 @@
 .essential__title-header h4{
     text-align: center;
-    
+    padding-bottom: 25px;
         color: #2D2A3E;
     font-size: 38px;
     font-style: normal;
@@ -14,6 +14,7 @@ cursor: pointer;
        color: $colorSpan ;
     }
 .essential__title-header p{
+    padding-bottom: 30px;
         color: #7E7FA0;
     text-align: center;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -24,7 +25,7 @@ cursor: pointer;
     letter-spacing: 1.5px;
     }
 .essential{    
-    height: 1073px;
+    height: 850px;
     flex-shrink: 0;
     background-color: $colorEssential;
     border-radius: 48px;
@@ -34,7 +35,8 @@ cursor: pointer;
         padding-bottom: 20px;
     }
 .essential__wrapper-col{
-        border-radius: 16px;
+   min-height: 100%;
+border-radius: 16px;
 background: #FFF;
 padding-left: 25px;
 padding-top: 10px;

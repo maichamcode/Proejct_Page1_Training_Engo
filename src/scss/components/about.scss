@@ -3,14 +3,108 @@
 .about__wrapper{
     position: relative;
 }
-.about__color{
+
+.about__color-p1 p {
+    padding-top: 20px;
+    position: relative;
+    color: #2D2B36;
+font-family: Manrope;
+font-size: 26px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px; /* 92.308% */
+letter-spacing: 1.3px;
+padding-left: 45px;
+}
+.about__color-p1 p::before{
+    content: '';
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #FBE9E9;
     position: absolute;
+    top: -20px;
+    left: 0px;
     z-index: -1;
+
 }
-.about__title{
-    padding-top: 4%;
-    padding-left: 19%;
+//
+
+.about__color-p2 p {
+    padding-top: 20px;
+    position: relative;
+    color: #2D2B36;
+font-family: Manrope;
+font-size: 26px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px; /* 92.308% */
+letter-spacing: 1.3px;
+padding-left: 35px;
 }
+.about__color-p2 p::before{
+    content: '';
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #E7FAF9;
+    position: absolute;
+    top: -20px;
+    z-index: -1;
+    left: -10px;
+}
+//
+.about__color-p3 p {
+    padding-top: 20px;
+    position: relative;
+    color: #2D2B36;
+font-family: Manrope;
+font-size: 26px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px; /* 92.308% */
+letter-spacing: 1.3px;
+padding-left: 35px;
+}
+.about__color-p3 p::before{
+    content: '';
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #F5ECFD;
+    position: absolute;
+    top: -20px;
+    z-index: -1;
+    left: -10px;
+}
+//
+.about__color-p4 p {
+    padding-top: 20px;
+    position: relative;
+    color: #2D2B36;
+font-family: Manrope;
+font-size: 26px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px; /* 92.308% */
+letter-spacing: 1.3px;
+padding-left: 35px;
+}
+.about__color-p4 p::before{
+    content: '';
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #E7EFFB;
+    position: absolute;
+    top: -20px;
+    z-index: -1;
+    left: -10px;
+}
+
 .about__text{
-    padding-left: 22%;
+    padding-top: 20px;
+    padding-left: 45px;
 }
+
+
